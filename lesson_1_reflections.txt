@@ -1,0 +1,64 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The diff tool helped identify the exact lines where there were differences
+    between the two files. On long files, it can become difficult to compare two
+    versions of a file without such a tool.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    A version history can help us compare our current code with prior versions.
+    This comparison can help us in identifying the code that was removed or added
+    (which might have caused a bug). It also helps us revert back to an older 
+    (and possibly more stable) version of our files.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual commits allow you to control the "save points" for your files. So long
+    as we commit at proper logical points with changes that are not too big, manual
+    commits allow for efficient comparison between versions of the file. On the
+    other hand if we commit too often or too irregularly, comparisons can get tedios.
+    Manual saving is also prone to user error - we could simply forget to save our work.
+
+    Automatic saving ensures that you almost never lose your work because you forgot to 
+    hit save. Although this might seem like a big advantage over the manual commit
+    process, the automatic commit method can commit too often. This in turn can create
+    too many versions of the file, thereby making comparisons difficult.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git was created primarily as a code versioning system. In most cases, a program
+    requires multiple interdependent files. When a change is made to one file, changes
+    might be needed in other files (for example, to fix references). These multiple
+    changes together can be part of one "change set". If we need to look a prior version
+    of a program, we can go back to a particular set of changes and compare all the files
+    that were changed.
+
+    Systems like Google Docs are primarily used to create and maintain documents that
+    are not interdependent. Since there is no need to check the state of other documents
+    while saving the current document, these systems don't support saving multiple files
+    in one commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log helps you get the version history across various commits of a project. Using
+    the comments associated with each commit, we can get a brief idea of what changes were
+    made in those versions. The git log also tells you who made the change and when the
+    change was made.
+
+    The git diff command helps you to compare two versions of commits (across multiple
+    files). It points out the lines that were added and removed.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Knowing that I can always go back to a prior stable version of my code certainly
+    makes me more comfortable with making changes to my code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Start writing code and experiment with version control!
