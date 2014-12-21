@@ -1,9 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 	Inititalizing a repository is the first step to convert a regular directory
-	into a git repository. It creates the hidden .git file which stores the 
+	into a git repository. It creates the hidden .git file which stores the
 	metadata containing the history of each commit. Once this file is created,
-	we can proceed with our first commit. Note that git does not automatically 
+	we can proceed with our first commit. Note that git does not automatically
 	create the first commit when you initialize the repository.
 
 How is the staging area different from the working directory and the repository?
@@ -16,6 +16,11 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	
+	The staging area acts as a holding area to keep all the changes you want to
+	commit. Once you have have identified and added all the files that you
+	want to include in a given commit, you can commit the entire set in one go
+	and give it a logical commit message.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
