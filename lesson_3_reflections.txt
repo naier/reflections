@@ -28,3 +28,11 @@ What is the benefit of having a copy of the last known state of the remote store
 	local master with the remote master in collaborative projects and resolve any conflicts
 	between the two. This helps while merging changes between the two branches to get them
 	in-sync.
+
+How would you collaborate without using Git or GitHub? What would be easier, and 
+what would be harder?
+
+	We could collaborate by sharing files over emails or creating a shared folder on a remote
+	desktop/server. We could also use tools like Google Drive or Dropbox. If we went with the
+	latter option, files would be synced automatically. But all of these options lack the robust
+	collaboration features of GitHub like forking and pull requests.
