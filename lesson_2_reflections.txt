@@ -57,4 +57,6 @@ manually?
 	be very trivial and we might have expected Git to resolve them automatically.
 	In such instances we end up spending time resolving such seemingly trivial
 	conflicts, but from an overall effort standpoint, it still beats doing merges
-	manually. Manual merges are time consuming and are fraught with user errors.
+	manually. 
+
+	Manual merges are time consuming and are fraught with user errors.
