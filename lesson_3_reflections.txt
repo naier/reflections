@@ -36,3 +36,10 @@ what would be harder?
 	desktop/server. We could also use tools like Google Drive or Dropbox. If we went with the
 	latter option, files would be synced automatically. But all of these options lack the robust
 	collaboration features of GitHub like forking and pull requests.
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+	Making changes in a separate branch makes sense when you are working on a new feature
+	instead of fixing production bugs. This way you can get the changes vetted by other
+	collaborators and then push it to master when it's ready for production.
