@@ -20,3 +20,11 @@ one instead of another?
 	local repository. It can also create a copy of another local repository. Branches are
 	created whenever a separate code stream becomes necessary - for example, experimenting
 	on a new feature that's not ready for production yet.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	Storing the last known state of the remote locally helps in situations where we don't
+	expect to have internet connectivity (like on planes). It also helps to compare the
+	local master with the remote master in collaborative projects and resolve any conflicts
+	between the two. This helps while merging changes between the two branches to get them
+	in-sync.
