@@ -1,1 +1,4 @@
 When would you want to create a remote repository rather than keeping all your work local?
+    A remote repository is useful when we are using multiple computers to manager our work.
+    It is also useful when multiple team members are collaborating on a project.
+    An added benefit of a remote repository is that it is a better way of backing up our work.
