@@ -11,3 +11,12 @@ stay up-to-date with your remote repository?
 	we made in our local files after we last pushed them to the remote repository. Doing
 	this manually gives us better control of resolving any conflicts that might arise
 	between the local changes and the new changes in the remote repository.
+
+Describe the differences between forks, clones, and branches. When would you use 
+one instead of another?
+
+	Fork creates a copy of another repository on GitHub - it's like cloning, except it's
+	performed on the remote repository. Clone creates a copy of a remote repository in a
+	local repository. It can also create a copy of another local repository. Branches are
+	created whenever a separate code stream becomes necessary - for example, experimenting
+	on a new feature that's not ready for production yet.
